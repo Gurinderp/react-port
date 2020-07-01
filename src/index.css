@@ -1,13 +1,174 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(212, 212, 212);
+    height: 300px;
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/12/Nasty-Fabric-Grey-Pattern-for-Website-Background.jpg")
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#top {
+    background: rgb(230, 230, 230);
+    height: 80px;
+    top: 0;
+}
+
+#name {
+    float: left;
+    width: 290px;
+    background-color: rgb(74, 170, 165);
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    padding: 10px;
+    height: 60px;
+    margin-left: 17%;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+#links {
+    margin-right: 17%;
+}
+
+.link {
+    float: right;
+    text-align: right;
+    color: rgb(48, 48, 48);
+    padding: 5px;
+    height: 20px;
+    padding-top: 18px;
+    width: auto;
+}
+
+#about {
+    border-left-style: solid;
+    border-color: lightgray;
+    font-size: 16px;
+}
+
+
+#portfoliolink {
+    border-left-style: solid;
+    border-color: lightgray;
+    font-size: 16px;
+}
+
+
+#contact {
+    font-size: 16px;
+}
+
+
+.zero {
+    margin: 0;
+    padding: 3px;
+    padding-left: 7px;
+}
+
+.zero:hover {
+    background-color: rgb(74, 170, 165);
+    color: rgb(230, 230, 230);
+}
+
+.box {
+    position: relative;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.712);
+    height: auto;
+    margin-top: 33px;
+    padding: 20px;
+}
+
+
+#aboutme {
+    color: rgb(74, 170, 165);
+    text-align: left;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+#information {
+    font-size: 16px;
+
+}
+
+img {
+    float: left;
+    width: 200px;
+}
+
+a {
+    color: black;
+    border: 1px solid;
+}
+
+embed {
+    height: 600px;
+    width: 600px;
+}
+
+.contactinfo {
+    text-align: left;
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+}
+
+#contact_name,
+#email,
+#message {
+    width: 100%;
+    border-color: lightgray;
+    border-width: 1px;
+    
+}
+
+#message {
+    height: 200px;
+}
+
+#rowone {
+    margin-left: 30%;
+    padding: 5px;
+    width: 50%;
+    height: 200px;
+}
+
+#rowtwo {
+    margin-left: 30%;
+    border-width: 5px;
+    padding: 5px;
+    width: auto;
+    height: 200px;
+}
+
+#game {
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.placehold {
+    border-width: 10px;
+}
+
+
+#button {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    background-color: darkslategray;
+    color: rgb(230, 230, 230);
+    border-top: solid  rgb(0, 143, 136);
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    padding: 10px;
+    margin-left: 0;
+    margin: 0;
 }
