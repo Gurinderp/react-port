@@ -1,63 +1,49 @@
-import React, { useState } from "react";
-import { Redirect } from "react-router-dom"
+import React from "react";
 
 function Landing() {
 	return (
-		<div id="top">
-        <section id="name">
-                <h1>Gurinderpreet Singh</h1>
-        </section>
+		<div>
+			<div className="box">
+        <div id="content">
+            <section id="aboutme">
+                Portfolio
+            </section>
+<hr />
+            <section id="portfoliobody">
+                <div className="container">
 
-        <section id="links">
+                <div id="rowone">
+                    <div className="placehold">
+                        <img src="./assets/dab.png" className="img-fluid" onclick="" alt="Responsive image" />
+                        <a href="https://github.com/Gurinderp/Bootcamp-group-project-1">Emoji Project</a>
+                    </div>
+                </div>
 
-            <div class="link">
-                <div id="about">
-                    <div class="zero">
-                <a href="index.html">About</a>
+                    <hr />
+                <div id="rowtwo">
+                    <div className="placehold">
+                        <img src="./assets/passgen.png" className="img-fluid" alt="Responsive image" />
+                        <a href="https://github.com/Gurinderp/PasswordGenerator">Password Generator</a>
+                    </div>
+                    <div className="placehold">
+                        <img src="./assets/dayplan.png" className="img-fluid" alt="Responsive image" />
+                        <a href="https://github.com/Gurinderp/dayPlanner">Day Planner</a>
                     </div>
                 </div>
-            </div>
 
-            <div class="link">
-                <div id="portfoliolink">
-                    <div class="zero">
-                <a href="portfolio.html">Portfolio</a>
+                    <hr />
+                <div id="game">
+                    <div className="placehold">
+                        <iframe src="https://scratch.mit.edu/projects/352739837/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
 
-            <div class="link">
-                <div id="contact">
-                    <div class="zero">
-                <a href="contact.html">Contact</a>
-                    </div>
                 </div>
-            </div>
-            <div class="link">
-                <div id="contact">
-                    <div class="zero">
-                <a href="https://www.linkedin.com/in/gurinderpreet-singh-9363291ab/">LinkedIn</a>
-                    </div>
-                </div>
-            </div>
-            <div class="link">
-                <div id="contact">
-                    <div class="zero">
-                <a href="https://github.com/Gurinderp">GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="link">
-                <div id="contact">
-                    <div class="zero">
-                <a href="./pdf.html">Resume</a>
-                    </div>
-                </div>
-            </div>
-
-        </section>
+            </section>
+        </div>
     </div>
-		)
+		</div>
+	);
 }
 
 export default Landing;

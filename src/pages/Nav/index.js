@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Redirect } from "react-router-dom"
+import React from "react";
 
 function Nav() {
 	return (
@@ -10,54 +9,56 @@ function Nav() {
 
         <section id="links">
 
-            <div class="link">
+            <div className="link">
                 <div id="about">
-                    <div class="zero">
+                    <div className="zero">
                 <a href="index.html">About</a>
                     </div>
                 </div>
             </div>
 
-            <div class="link">
+            <div className="link">
                 <div id="portfoliolink">
-                    <div class="zero">
+                    <div className="zero">
                 <a href="portfolio.html">Portfolio</a>
                     </div>
                 </div>
             </div>
 
-            <div class="link">
+            <div className="link">
                 <div id="contact">
-                    <div class="zero">
+                    <div className="zero">
                 <a href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>
-            <div class="link">
+            <div className="link">
                 <div id="contact">
-                    <div class="zero">
+                    <div className="zero">
                 <a href="https://www.linkedin.com/in/gurinderpreet-singh-9363291ab/">LinkedIn</a>
                     </div>
                 </div>
             </div>
-            <div class="link">
+            <div className="link">
                 <div id="contact">
-                    <div class="zero">
+                    <div className="zero">
                 <a href="https://github.com/Gurinderp">GitHub</a>
                     </div>
                 </div>
             </div>
-            <div class="link">
+            <div className="link">
                 <div id="contact">
-                    <div class="zero">
+                    <div className="zero">
                 <a href="./pdf.html">Resume</a>
                     </div>
                 </div>
             </div>
 
+
         </section>
     </div>
-		)
+        
+	);
 }
 
 export default Nav;

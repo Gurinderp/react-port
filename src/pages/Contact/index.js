@@ -1,17 +1,17 @@
 import React from "react";
 
 function Contact() {
-    return (
-    <body>
-       <div>
-    <div class="box">
+    return (       
+<div className="container">
+<div>
+    <div className="box">
         <div id="content">
             <section id="aboutme">
                 Contact
             </section>
 <hr />
             <section id="contactbody">
-                <div class="contactinfo">
+                <div className="contactinfo">
                 <p>
                 <label>Name</label>
                 <br />
@@ -19,7 +19,7 @@ function Contact() {
                         id ="contact_name"/>
                 </p>
                 </div>
-                <div class="contactinfo">
+                <div className="contactinfo">
                 <p>
                     <label>Email</label>
                     <br />
@@ -27,7 +27,7 @@ function Contact() {
                             id="email"/>
                 </p>
                 </div>
-                <div class="contactinfo">
+                <div className="contactinfo">
                 <p>
                     <label>Message</label>
                     <br />
@@ -41,8 +41,11 @@ function Contact() {
             </section>
         </div>
     </div>
+    <footer className="clearfix">
+        <p>Copyright &#x24B8</p>
+    </footer>
 </div>
-</body>
+</div>
     );
 }
 
