@@ -8,6 +8,7 @@ body {
     background: rgb(230, 230, 230);
     height: 80px;
     top: 0;
+    display: flex;
 }
 
 #name {
