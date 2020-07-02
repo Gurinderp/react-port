@@ -59,7 +59,7 @@ function Nav() {
             </div>
             </Link>
 
-            <Link to="/pdf.html">
+            <Link to="/resume">
             <div className="link">
                 <div id="contact">
                     <div className="zero">
