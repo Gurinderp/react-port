@@ -39,25 +39,22 @@ function Nav() {
             </div>
             </Link>
 
-            <Link to="https://www.linkedin.com/in/gurinderpreet-singh-9363291ab/">
             <div className="link">
                 <div id="contact">
                     <div className="zero">
-                <li>LinkedIn</li>
+                <a href="https://www.linkedin.com/in/gurinderpreet-singh-9363291ab/">LinkedIn</a>
                     </div>
                 </div>
             </div>
-            </Link>
 
-            <Link to="https://github.com/Gurinderp">
             <div className="link">
                 <div id="contact">
                     <div className="zero">
-                <li>GitHub</li>
+                <a href="https://github.com/Gurinderp">GitHub</a>
                     </div>
                 </div>
             </div>
-            </Link>
+
 
             <Link to="/resume">
             <div className="link">

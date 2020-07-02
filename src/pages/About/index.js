@@ -12,6 +12,10 @@ function About() {
 <hr />
             <section id="information">
                 <img src={pic} />
+                email: sgurinderpreet@gmail.com
+                <br />
+                number: (916) 767-6512
+                <br />
                 Lorem ipsum dolor sit amet, sit deleniti inciderint te, cu nam solet ubique, molestie intellegebat ut mel. Sed definitionem signiferumque id. Quis dico maluisset at has, an sit modo magna. His cibo maiorum ei, ei quo assentior consequuntur. Pro no esse patrioque, graece mucius ei has. Te vel quaeque intellegebat.
                 Ea mutat legimus senserit has, his accusamus disputationi ne, dicunt nostrud te nec. An veritus recusabo suavitate mea. 
                 Sonet noluisse eu per, ex agam maluisset assentior duo. Ne usu liber solet, eum in iudico deleniti probatus. Id utinam omittam democritum eam, elitr detracto vix ne, cu alia accusam eleifend eos.
